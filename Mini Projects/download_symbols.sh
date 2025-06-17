@@ -42,16 +42,3 @@ printf("{\"ACT Symbol\":\"%s\", \"Security Name\":\"%s\", \"Exchange\":\"%s\", \
 
 printf "Done.\n\n"
 
-
-# if wget -nv -O all_stocks.zip https://github.com/rreichel3/US-stock-Symbols/archive/main.zip; then
-#     if unzip -q all_stocks.zip; then
-#         rm all_stocks.zip
-#         zenity --info --text "Success!\nYour stock ticker lists should be in US-stock-Symbols-main" --title "Ticker Download" --width 250 --height 50
-#         # toilet -F border -F gay  "S U C C E S S"
-#     else
-#         zenity --info --text "Unzip failed.." --title "Ticker Download" --width 250 --height 50
-#     fi
-# else
-#     zenity --info --text "Downloading zip failed. Check address or source" --title "Ticker Download" --width 250 --height 50
-# fi
-
